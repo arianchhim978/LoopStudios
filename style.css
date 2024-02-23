@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+}
+.size{
+    background:url("images/mobile/image-hero.jpg");
+    color:white;
+    
+    background-size:500px;
+    height:700px;
+    display:flex;
+
+    
+}
+#menu{
+    display:none;
+    list-style: none;
+    position:relative;
+   
+}
+.hamburger{
+    height:15px;
+    margin-left:130px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    margin-top:20px;
+}
+.loop{
+    margin-left:20px;
+}
+.box1{
+    border:solid 2px white;
+    height:200px;
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:200px;
+}
+.p1{
+    font-size: 35px;
+    text-align: center;
+    margin-top:20px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:200px;
+    grid-template-rows:repeat(8,fr);
+}
+.pic{
+    background-image: url(images/mobile/image-deep-earth.jpg);
+    background-position: center;
+    height:100px;
+    width:375px;
+    color:white;
+    margin-top:20px;
+    place-items: center;
+
+}
+.pic2{
+    background-image:url(images/mobile/image-night-arcade.jpg);
+    background-position: center;
+    height:100%;
+    width:375px;
+    color:white;
+    margin-top:20px;
+    place-items: center;
+}
+.center{
+    text-align: center;
+    font-family: "ALATA";
+    font-size:25px;
+}
