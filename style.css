@@ -1,109 +1,114 @@
-@media(max-width:600px){
-    *{
-        margin:0;
-        padding:0;
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
         font-family: "Alata", sans-serif;
-      
     }
-    .size{
-        background:url("images/mobile/image-hero.jpg");
-        color:white;
-        width:100%;
-        background-size:50%;
-        height:700px;
-        display:flex;
+
+    .size {
+        background: url("images/mobile/image-hero.jpg");
+        color: white;
+        width: 100%;
+        max-width: 100%; /* Ensure the container doesn't exceed viewport width */
+        height: auto; /* Adjust height to fit content */
+        display: flex;
         background-size: cover;
-        background-position:center;
-        overflow: hidden;
-    
-    
-        
+        background-position: center;
+        overflow: hidden; /* Hide any overflowing content */
     }
-    #menu{
-        display:none;
+    
+    
+
+    #menu {
+        display: none;
         list-style: none;
-        position:absolute;
-        top:70px;
-        left:50%;
-        margin-top:5px;
-       
-       
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        margin-top: 5px;
     }
-    .hamburger{
-        height:15px;
-       margin-left:100px;
-        
+
+    .hamburger {
+        height: 15px;
+        margin-left: 100px;
     }
-    .p{
+
+    .p {
         display: flex;
         align-items: center;
-        position:absolute;
-        margin-top:20px;
-        margin-left:40px;
-       
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 40px;
     }
-    .loop{
-        margin-left:20px;
+
+    .loop {
+        margin-left: 20px;
     }
-    .box1{
-        border:solid 2px white;
-        height:200px;
+
+    .box1 {
+        border: solid 2px white;
+        height: 200px;
         width: 300px;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
     }
-    .p1{
+
+    .p1 {
         font-size: 35px;
         text-align: center;
-        margin-top:20px;
+        margin-top: 20px;
     }
-    .grid{
-        display:grid;
-        grid-template-columns:200px;
-        grid-template-rows:repeat(8,fr);
+
+    .grid {
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(8, fr);
     }
-    
-    .pic{
+
+    .pic {
         background-image: url(images/mobile/image-deep-earth.jpg);
-        position:block;
-        height:100px;
-        width:100%;
-        color:white;
-        margin-top:20px;
-        
-        margin-left:auto;
-    
+        position: block;
+        height: auto; /* Adjust height to fit content */
+        width: 100%; /* Adjust width to fit container */
+        color: white;
+        margin-top: 20px;
+        margin-left: auto;
     }
-    #flat{
-        height:150px;
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:20px;
+
+    #flat {
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
     }
-    .text{
+
+    .text {
         text-align: center;
         font-weight: 100;
-        color:grey;
-        font-size:15px;
+        color: grey;
+        font-size: 15px;
     }
-    h3{
+
+    h3 {
         text-align: center;
     }
-    .pic2{
-        background-image:url(images/mobile/image-night-arcade.jpg);
+
+    .pic2 {
+        background-image: url(images/mobile/image-night-arcade.jpg);
         background-position: center;
-        background-size:cover;
-        height:100%;
-        width:375px;
-        color:white;
-        margin-top:20px;
+        background-size: cover;
+        height: auto; /* Adjust height to fit content */
+        width: 100%; /* Adjust width to fit container */
+        color: white;
+        margin-top: 20px;
         place-items: center;
     }
-    .center{
+
+    .center {
         text-align: center;
         font-family: "ALATA";
-        font-size:25px;
+        font-size: 25px;
     }
 }
