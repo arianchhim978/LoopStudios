@@ -9,7 +9,7 @@
         background:url("images/mobile/image-hero.jpg");
         color:white;
         width:100%;
-        background-size:100%;
+        background-size:50%;
         height:700px;
         display:flex;
         background-size: cover;
@@ -68,7 +68,7 @@
         background-image: url(images/mobile/image-deep-earth.jpg);
         position:block;
         height:100px;
-        width:375px;
+        width:100%;
         color:white;
         margin-top:20px;
         
