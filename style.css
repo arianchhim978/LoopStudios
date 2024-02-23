@@ -8,13 +8,13 @@
     .size {
         background: url("images/mobile/image-hero.jpg");
         color: white;
-        width: 100%;
-        max-width: 100%; /* Ensure the container doesn't exceed viewport width */
+        width: 100vh;
+        max-width:100%; /* Ensure the container doesn't exceed viewport width */
         height: auto; /* Adjust height to fit content */
         display: flex;
         background-size: cover;
         background-position: center;
-        overflow: hidden; /* Hide any overflowing content */
+         /* Hide any overflowing content */
     }
     
     
