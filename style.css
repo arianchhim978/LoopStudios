@@ -10,7 +10,7 @@
         background: url("images/mobile/image-hero.jpg");
         color: white;
         width: 100vh;
-        max-width:100%; /* Ensure the container doesn't exceed viewport width */
+        max-width:100vh; /* Ensure the container doesn't exceed viewport width */
         height: auto; /* Adjust height to fit content */
         display: flex;
         background-size: cover;
