@@ -113,7 +113,7 @@
     }
 }
 /* Global styles */
-@media (max-width: 414px) { /* iPhone 13 width in portrait mode */
+@media (min-width: 414px) { /* iPhone 13 width in portrait mode */
     * {
         margin: 0;
         padding: 0;
@@ -226,5 +226,4 @@
         font-family: "ALATA";
         font-size: 25px;
     }
-}
 }
