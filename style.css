@@ -225,37 +225,4 @@
         text-align: center;
         font-family: "ALATA";
         font-size: 25px;
-    }
-}
-/* Global styles */
-@media (max-width: 700px) {
-    /* Styles for screens up to 700px width */
-}
-
-/* Styles for screens larger than 700px width */
-@media (min-width: 701px) {
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: "Alata", sans-serif;
-    }
-
-    .size {
-        /* Your styles for .size here */
-    }
-
-    #menu {
-        list-style: none;
-        position: absolute;
-        top: 70px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .hamburger {
-        height: 15px;
-        /* Your styles for .hamburger here */
-    }
-
-    /* Other styles for larger screens */
-}
+    } }
